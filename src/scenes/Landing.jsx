@@ -15,7 +15,7 @@ export default function Landing({setSelectedPage}) {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <h1 class="max-w-2xl mb-4 text-4xl font-teko font-extrabold tracking-tight leading-none md:text-6xl xl:text-7xl dark:text-white">
+            <h1 class="max-w-2xl mb-4 text-4xl font-teko font-extrabold tracking-tight leading-none md:text-6xl xl:text-7xl text-white">
               UI UX DESIGNER & FRONT END DEVELOPER
             </h1>
             <p class="max-w-2xl mb-6 font-light font-sans lg:mb-6 md:text-lg lg:text-xl dark:text-gray-400">
