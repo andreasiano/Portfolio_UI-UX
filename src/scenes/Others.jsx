@@ -12,7 +12,7 @@ export default function Others() {
       <div className="text-center text-darkGrey xxs:text-4xl sm:text-5xl text-6xl font-teko py-10">
         <h5 className="font-bold">OTHER NOTEWORTHY PROJECTS</h5>
       </div>
-      <div class="p-10 grid sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+      <div class="p-5 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <div class="rounded-lg bg-white overflow-hidden shadow-lg">
           <img class="w-full" src={img1} alt="Mountain" />
           <div class="px-6 py-4">
