@@ -24,7 +24,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
   return (
     <nav className="z-40 sticky top-0 w-full py-6">
       <div className="flex items-center justify-between mx-auto w-5/6">
-        <h4 className="font-teko text-2xl text-white">ANDREA PENSIERI</h4>
+        <h4 className="font-teko text-2xl text-red-200">ANDREA PENSIERI</h4>
 
         {/* DESKTOP NAV */}
         {isDesktop ? (
