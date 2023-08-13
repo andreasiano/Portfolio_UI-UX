@@ -7,7 +7,7 @@ export default function Projects() {
         <section>
           <div class="relative xs:max-w-[500px] md:max-w-[1100px] sm:max-w-[900px] xxs:max-w-[360px] mx-auto mb-4 mt-20">
             <img
-              class="md:h-[50vh] lg:h-[60vh] sm:h-[70vh] xxs:h-[60vh] w-full object-cover rounded-md"
+              class="md:h-[60vh] lg:h-[90vh] sm:h-[70vh] xxs:h-[60vh] w-full object-cover rounded-md"
               src={img1}
             ></img>
             <div class="absolute inset-0 bg-black opacity-70 rounded-md"></div>
@@ -29,7 +29,7 @@ export default function Projects() {
           </div>
           <div class="relative xs:max-w-[500px] md:max-w-[1100px] sm:max-w-[900px] xxs:max-w-[360px] mx-auto mb-20 mt-10">
             <img
-              class="md:h-[50vh] lg:h-[60vh] sm:h-[70vh] xxs:h-[60vh] w-full object-cover rounded-md"
+              class="md:h-[50vh] lg:h-[90vh] sm:h-[70vh] xxs:h-[60vh] w-full object-cover rounded-md"
               src={img2}
             ></img>
             <div class="absolute inset-0 flex items-start flex-col justify-center px-6">
