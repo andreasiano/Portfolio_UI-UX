@@ -11,6 +11,10 @@ body,
     background-color: rgb(56, 78, 97); 
 }
 
+html {
+    zoom: 130%;
+}
+
 
 .outer-container {
     margin: 24px;
