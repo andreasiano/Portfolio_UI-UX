@@ -20,7 +20,7 @@ export default function Others() {
         <div class="py-8 mx-auto w-4/5">
           <div class="max-w-screen-lg lg:mb-16">
             <h2 class="mb-4 text-center xxs:text-4xl sm:text-5xl font-teko text-6xl tracking-tight font-extrabold text-white">
-              OTHER PROJECTS
+              OTHER <PROJECTS></PROJECTS>
             </h2>
           </div>
           <div class="space-y-8 sm:grid mb-10 md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
