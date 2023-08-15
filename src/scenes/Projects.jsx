@@ -4,18 +4,18 @@ import { motion } from "framer-motion";
 
 export default function Projects() {
     return (
-      <section>
+      <section id="works">
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.8 }}
           variants={{
-            hidden: { opacity: 0, y: -50 },
+            hidden: { opacity: 0, y: -20 },
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <div class="relative xs:max-w-[500px] md:max-w-[1100px] sm:max-w-[900px] xxs:max-w-[360px] mx-auto mb-4 mt-20">
+          <div class="relative w-4/5 mx-auto mb-4 mt-20">
             <img
               class="md:h-[60vh] lg:h-[90vh] sm:h-[70vh] xxs:h-[60vh] w-full object-cover rounded-md"
               src={img1}
@@ -32,26 +32,12 @@ export default function Projects() {
                 This is a complete travel mobile app experience built with
                 figma. You can take a look at it if you want to!
               </p>
-              <button
-                id="works"
-                class="font-teko bg-transparent hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded"
-              >
+              <button class="font-teko bg-transparent hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded">
                 SEE MY PROTOTYPE
               </button>
             </div>
           </div>
-        </motion.div>
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.8 }}
-          variants={{
-            hidden: { opacity: 0, y: -50 },
-            visible: { opacity: 1, y: 0 },
-          }}
-        >
-          <div class="relative xs:max-w-[500px] md:max-w-[1100px] sm:max-w-[900px] xxs:max-w-[360px] mx-auto mb-20 mt-10">
+          <div class="relative w-4/5 mx-auto mb-10 mt-10">
             <img
               class="md:h-[50vh] lg:h-[90vh] sm:h-[70vh] xxs:h-[60vh] w-full object-cover rounded-md"
               src={img2}

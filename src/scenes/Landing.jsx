@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function Landing({setSelectedPage}) {
   return (
     <section id="home">
-      <div class="grid md:max-w-[1100px] sm:max-w-screen-sm px-4 py-8 mx-auto lg:gap-8 sm:gap-4 lg:py-8 sm:grid-cols-2 lg:grid-cols-12 mb-7">
+      <div class="grid w-4/5 py-8 mx-auto lg:gap-8 sm:gap-4 lg:py-8 sm:grid-cols-2 lg:grid-cols-12 mb-7">
         <div class="mr-auto place-self-center lg:col-span-7">
           <motion.div
             initial="hidden"

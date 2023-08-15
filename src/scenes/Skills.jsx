@@ -1,34 +1,28 @@
+import { motion } from "framer-motion";
 import img1 from "./../assets/images/icons8-ui-ux-design-50 (1).png";
 import img2 from "./../assets/images/icons8-coding-50.png";
-import img3 from "./../assets/images/icons8-graphic-design-50.png";
-import img4 from "./../assets/images/icons8-art-50.png";
-import img5 from "./../assets/images/icons8-branding-64.png";
-import img6 from "./../assets/images/icons8-digital-marketing-64.png";
-import { motion } from "framer-motion";
+import img3 from "./../assets/images/icons8-art-50.png";
 
 export default function Skills() {
   return (
-    <section className="bg-slate-300">
-      <div class="py-8 px-4 mx-auto w-screen-xl sm:py-16 lg:px-6">
-        <div class="max-w-screen-lg mb-8 lg:mb-16">
-          <h2 class="mb-4 xxs:text-4xl sm:text-5xl font-teko text-6xl tracking-tight font-extrabold text-darkGrey">
-            MY SKILLS
-          </h2>
-        </div>
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.8 }}
-          variants={{
-            hidden: { opacity: 0, x: -50 },
-            visible: { opacity: 1, x: 0 },
-          }}
-        >
-          <div
-            id="skills"
-            class="space-y-8 sm:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
-          >
+    <section id="skills" className="bg-slate-300">
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.1 }}
+        transition={{ duration: 0.8 }}
+        variants={{
+          hidden: { opacity: 0, x: -50 },
+          visible: { opacity: 1, x: 0 },
+        }}
+      >
+        <div class="py-8 mx-auto w-4/5">
+          <div class="max-w-screen-lg mb-8 lg:mb-16">
+            <h2 class="mb-4 xxs:text-4xl sm:text-5xl font-teko text-6xl tracking-tight font-extrabold text-darkGrey">
+              MY SKILLS
+            </h2>
+          </div>
+          <div class="space-y-8 sm:grid mb-10 md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             <div className="bg-white shadow-lg p-5 rounded-lg">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12">
                 <img className="w-8 h-8 lg:w-8 lg:h-8" src={img1} alt="" />
@@ -60,7 +54,7 @@ export default function Skills() {
             </div>
             <div className="bg-white shadow-lg p-5 rounded-lg">
               <div class="flex justify-center  items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                <img className="w-8 h-8 lg:w-8 lg:h-8" src={img4} alt="" />
+                <img className="w-8 h-8 lg:w-8 lg:h-8" src={img3} alt="" />
               </div>
               <h3 class="mb-2 text-darkGrey font-teko text-2xl font-bold ">
                 VECTOR ART
@@ -75,8 +69,8 @@ export default function Skills() {
               </p>
             </div>
           </div>
-        </motion.div>
-      </div>
+        </div>
+      </motion.div>
     </section>
   );
 }

@@ -1,21 +1,7 @@
 import { useState } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
+import { Link } from "react-scroll";
 
-const Link = ({ page, selectedPage, setSelectedPage }) => {
-  const lowerCasePage = page.toLowerCase();
-  return (
-    <AnchorLink
-      className={`${
-        selectedPage === lowerCasePage ? "text-gray-400" : ""
-      } hover:text-gray-400 transition duration-500`}
-      href={`#${lowerCasePage}`}
-      onClick={() => setSelectedPage(lowerCasePage)}
-    >
-      {page}
-    </AnchorLink>
-  );
-};
 
 const Navbar = ({ selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
@@ -23,32 +9,49 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
 
   return (
     <nav className="z-40 sticky top-0 w-full py-6">
-      <div className="flex items-center justify-between mx-auto w-5/6">
-        <h4 className="font-teko text-2xl text-white">ANDREA PENSIERI</h4>
-
+      <div className="flex items-center justify-between mx-auto w-4/5">
+        <h4 className="font-teko xxs:text-2xl xs:text-3xl lg:text-4xl text-white">
+          ANDREA PENSIERI
+        </h4>
         {/* DESKTOP NAV */}
         {isDesktop ? (
-          <div className="flex font-teko justify-between text-white gap-6 text-md font-semibold">
+          <div className="flex font-teko justify-between text-white gap-6 text-[20px] font-semibold">
             <Link
-              page="HOME"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
+              to="/"
+              spy={true}
+              smooth={true}
+              offset={20}
+              delation={500}
+            >
+              <a href="">HOME</a>
+            </Link>
             <Link
-              page="SKILLS"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={150}
+              delation={500}
+            >
+              <a href="">SKILLS</a>
+            </Link>
             <Link
-              page="WORKS"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
+              to="works"
+              spy={true}
+              smooth={true}
+              offset={170}
+              delation={500}
+            >
+              <a href="">WORKS</a>
+            </Link>
             <Link
-              page="CONTACT"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={1000}
+              delation={500}
+            >
+              <a href="">CONTACT</a>
+            </Link>
           </div>
         ) : (
           <button
@@ -104,26 +107,36 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
 
             {/* MENU ITEMS */}
             <div className="flex flex-col text-darkGrey gap-10 ml-[33%] text-3xl">
+              <Link to="home" spy={true} smooth={true} offset={0} delay={500}>
+                <a href="">HOME</a>
+              </Link>
               <Link
-                page="HOME"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={170}
+                delay={500}
+              >
+                <a href="">SKILLS</a>
+              </Link>
               <Link
-                page="SKILLS"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
+                to="works"
+                spy={true}
+                smooth={true}
+                offset={160}
+                delay={500}
+              >
+                <a href="">WORKS</a>
+              </Link>
               <Link
-                page="WORKS"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-              <Link
-                page="CONTACT"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={600}
+                delay={500}
+              >
+                <a href="">CONTACT</a>
+              </Link>
             </div>
           </div>
         )}
