@@ -21,7 +21,6 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
               spy={true}
               smooth={true}
               offset={0}
-              delation={100}
             >
               <a href="">HOME</a>
             </Link>
@@ -30,7 +29,6 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
               spy={true}
               smooth={true}
               offset={170}
-              delation={100}
             >
               <a href="">SKILLS</a>
             </Link>
@@ -39,7 +37,6 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
               spy={true}
               smooth={true}
               offset={190}
-              delation={100}
             >
               <a href="">WORKS</a>
             </Link>
@@ -48,7 +45,6 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
               spy={true}
               smooth={true}
               offset={1100}
-              delation={100}
             >
               <a href="">CONTACT</a>
             </Link>
