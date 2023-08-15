@@ -3,7 +3,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { Link } from "react-scroll";
 
 
-const Navbar = ({ selectedPage, setSelectedPage }) => {
+const Navbar = () => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isDesktop = useMediaQuery("(min-width: 768px)");
 
