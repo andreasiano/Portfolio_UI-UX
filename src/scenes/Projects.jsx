@@ -33,7 +33,9 @@ export default function Projects() {
                 figma. You can take a look at it if you want to!
               </p>
               <button class="font-teko bg-transparent hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded">
-                SEE MY PROTOTYPE
+                <a href="https://www.figma.com/file/bohhBEUAqAzkZO6bV7XcxC/Travel-Mobile-App?type=design&node-id=0-1&mode=design&t=UzkrEtZFTmOzgoWA-0">
+                  SEE MY PROTOTYPE
+                </a>
               </button>
             </div>
           </div>
@@ -55,7 +57,9 @@ export default function Projects() {
                 spirits dwell.
               </p>
               <button class=" font-teko bg-transparent hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded">
-                SEE MY PROJECT
+                <a href="https://east-asian-blog.netlify.app/">
+                  SEE MY PROTOTYPE
+                </a>
               </button>
             </div>
           </div>

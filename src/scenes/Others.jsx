@@ -65,12 +65,13 @@ export default function Others() {
                 </span>
               </div>
               <p class="text-gray-400 mb-4">
-                This is a furniture mobile app built with Figma full of different sections! Click on the button
-                to see the entire project.
+                This is a furniture mobile app built with Figma full of
+                different sections! Click on the button to see the entire
+                project.
               </p>
               <button className="flex-block">
                 <a
-                  href="#"
+                  href="https://www.figma.com/file/qk2lDHC6NrzNS51sWw3YKt/Furniture-Mobile-App?type=design&node-id=0-1&mode=design&t=R020c9Lhtgq97XnY-0"
                   class="font-teko bg-transparent inline-flex hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded"
                 >
                   LEARN MORE
@@ -138,7 +139,7 @@ export default function Others() {
               </p>
               <button className="flex-block">
                 <a
-                  href="#"
+                  href="https://www.figma.com/file/lz1iEHveQYDxKmOdyb2yH3/Wallet-mobile-app-(Copy)?type=design&node-id=0-1&mode=design&t=R020c9Lhtgq97XnY-0"
                   class="font-teko bg-transparent inline-flex hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded"
                 >
                   LEARN MORE
@@ -206,7 +207,7 @@ export default function Others() {
               </p>
               <button className="flex-block">
                 <a
-                  href="#"
+                  href="https://siepelunga24.netlify.app/"
                   class="font-teko bg-transparent inline-flex hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded"
                 >
                   LEARN MORE
@@ -269,7 +270,8 @@ export default function Others() {
                 </span>
               </div>
               <p class="text-gray-400 mb-4">
-                Tia Almaz is an artist an cook based in Bologna. Follow her on instagram to discover the secrets of ethiopian coffe!
+                Tia Almaz is an artist an cook based in Bologna. Follow her on
+                instagram to discover the secrets of ethiopian coffe!
               </p>
               <button className="flex-block">
                 <a
@@ -339,11 +341,13 @@ export default function Others() {
                 </span>
               </div>
               <p class="text-gray-400 mb-4">
-                Francesca Sorrentino is an italian sociologist and photographer, fond of nature and people. Click on the button to see her portfolio!
+                Francesca Sorrentino is an italian sociologist and photographer,
+                fond of nature and people. Click on the button to see her
+                portfolio!
               </p>
               <button className="flex-block">
                 <a
-                  href="#"
+                  href="https://sorrentinoportfolio.netlify.app/"
                   class="font-teko bg-transparent inline-flex hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded"
                 >
                   LEARN MORE
@@ -406,11 +410,13 @@ export default function Others() {
                 </span>
               </div>
               <p class="text-gray-400 mb-4">
-                Virginia Verdolini is a beautycare professional specialized in artisanal soaps. You'll find only natural ingredients in her products!
+                Virginia Verdolini is a beautycare professional specialized in
+                artisanal soaps. You'll find only natural ingredients in her
+                products!
               </p>
               <button className="flex-block">
                 <a
-                  href="#"
+                  href="https://dev-vivilittlegreen.pantheonsite.io/"
                   class="font-teko bg-transparent inline-flex hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded"
                 >
                   LEARN MORE
