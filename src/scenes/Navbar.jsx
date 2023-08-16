@@ -16,13 +16,7 @@ const Navbar = () => {
         {/* DESKTOP NAV */}
         {isDesktop ? (
           <div className="flex font-teko justify-between text-white gap-6 text-[20px] font-semibold">
-            <Link
-              to="/"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
+            <Link to="/" spy={true} smooth={true} offset={0} duration={500}>
               <a href="">HOME</a>
             </Link>
             <Link
@@ -107,7 +101,14 @@ const Navbar = () => {
 
             {/* MENU ITEMS */}
             <div className="flex flex-col text-darkGrey gap-10 ml-[33%] text-3xl">
-              <Link to="home" spy={true} smooth={true} offset={0} delay={500}>
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={0}
+                delay={500}
+                onClick={() => setIsMenuToggled(!isMenuToggled)}
+              >
                 <a href="">HOME</a>
               </Link>
               <Link
@@ -116,6 +117,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={20}
                 duration={500}
+                onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
                 <a href="">SKILLS</a>
               </Link>
@@ -125,6 +127,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={0}
                 duration={500}
+                onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
                 <a href="">WORKS</a>
               </Link>
@@ -134,6 +137,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={20}
                 duration={500}
+                onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
                 <a href="">CONTACT</a>
               </Link>
