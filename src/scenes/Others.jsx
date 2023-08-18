@@ -1,8 +1,4 @@
 import { motion } from "framer-motion";
-import img1 from "./../assets/images/icons8-ui-ux-design-50 (1).png";
-import img2 from "./../assets/images/icons8-coding-50.png";
-import img3 from "./../assets/images/icons8-art-50.png";
-
 
 export default function Others() {
   return (

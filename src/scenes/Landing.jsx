@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
+import img1 from "./../assets/images/myimage-2.jpg";
 
-export default function Landing({setSelectedPage}) {
+export default function Landing() {
   return (
     <section id="home">
       <div class="grid w-4/5 py-8 mx-auto lg:gap-8 sm:gap-4 lg:py-20 sm:grid-cols-2 lg:grid-cols-12 mb-7">
@@ -23,7 +24,7 @@ export default function Landing({setSelectedPage}) {
               can code, design and prototype beautiful and responsive web
               applications!
             </p>
-            <a href="">
+            <a href="https://www.facebook.com/andrew.onais.9/?paipv=0&eav=Afa5uhlGs_onh2HMqBdvsaEiFm8mMpnhcXeALi7FbXXEzvqkhVzfxGC_-cvJZ5TcBPM&_rdr">
               <svg
                 className="inline-flex mr-3 items-start justify-start"
                 xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +114,7 @@ export default function Landing({setSelectedPage}) {
                 </g>
               </svg>
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/andre_onais90/">
               <svg
                 className="inline-flex mr-3 items-start justify-start"
                 xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +144,7 @@ export default function Landing({setSelectedPage}) {
                 </g>
               </svg>
             </a>
-            <a href="">
+            <a href="https://github.com/andreasiano?tab=repositories">
               <svg
                 className="inline-flex mr-3 items-start justify-start"
                 xmlns="http://www.w3.org/2000/svg"
@@ -176,11 +177,7 @@ export default function Landing({setSelectedPage}) {
           </motion.div>
         </div>
         <div class="mt-6 lg:col-span-5 lg:flex">
-          <img
-            className="rounded-xl"
-            src="https://i.pinimg.com/564x/77/ca/da/77cadac688250809dfd527712db48646.jpg"
-            alt="mockup"
-          />
+          <img className="rounded-xl" src={img1} alt="mockup" />
         </div>
       </div>
     </section>
