@@ -2,24 +2,24 @@ import { motion } from "framer-motion";
 
 export default function Others() {
   return (
-    <section id="skills">
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.1 }}
-        transition={{ duration: 0.8 }}
-        variants={{
-          hidden: { opacity: 0, x: -50 },
-          visible: { opacity: 1, x: 0 },
-        }}
-      >
-        <div class="py-8 mx-auto w-4/5">
-          <div class="max-w-screen-lg lg:mb-16">
-            <h2 class="mb-4 text-center xxs:text-4xl sm:text-5xl font-teko text-6xl tracking-tight font-extrabold text-white">
-              OTHER PROJECTS
-            </h2>
-          </div>
-          <div class="space-y-8 sm:grid mb-10 md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+    <section>
+      <div class="py-8 mx-auto w-4/5">
+        <div class="max-w-screen-lg lg:mb-16">
+          <h2 class="mb-4 text-center xxs:text-4xl sm:text-5xl font-teko text-6xl tracking-tight font-extrabold text-white">
+            OTHER PROJECTS
+          </h2>
+        </div>
+        <div class="space-y-8 sm:grid mb-10 md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              hidden: { opacity: 0, scale: 0.8 },
+              visible: { opacity: 1, scale: 1 },
+            }}
+          >
             <div className="border-4 p-5 rounded-lg">
               <div class="flex justify-center  items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <svg
@@ -89,6 +89,17 @@ export default function Others() {
                 </a>
               </button>
             </div>
+          </motion.div>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              hidden: { opacity: 0, scale: 0.8 },
+              visible: { opacity: 1, scale: 1 },
+            }}
+          >
             <div className="border-4 p-5 rounded-lg">
               <div class="flex justify-center  items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <svg
@@ -157,6 +168,17 @@ export default function Others() {
                 </a>
               </button>
             </div>
+          </motion.div>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              hidden: { opacity: 0, scale: 0.8 },
+              visible: { opacity: 1, scale: 1 },
+            }}
+          >
             <div className="border-4 p-5 rounded-lg">
               <div class="flex justify-center  items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <svg
@@ -225,6 +247,17 @@ export default function Others() {
                 </a>
               </button>
             </div>
+          </motion.div>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              hidden: { opacity: 0, scale: 0.8 },
+              visible: { opacity: 1, scale: 1 },
+            }}
+          >
             <div className="border-4 p-5 rounded-lg">
               <div class="flex justify-center  items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <svg
@@ -293,6 +326,17 @@ export default function Others() {
                 </a>
               </button>
             </div>
+          </motion.div>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              hidden: { opacity: 0, scale: 0.8 },
+              visible: { opacity: 1, scale: 1 },
+            }}
+          >
             <div className="border-4 p-5 rounded-lg">
               <div class="flex justify-center  items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <svg
@@ -365,6 +409,17 @@ export default function Others() {
                 </a>
               </button>
             </div>
+          </motion.div>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              hidden: { opacity: 0, scale: 0.8 },
+              visible: { opacity: 1, scale: 1 },
+            }}
+          >
             <div className="border-4 p-5 rounded-lg">
               <div class="flex justify-center  items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                 <svg
@@ -434,9 +489,9 @@ export default function Others() {
                 </a>
               </button>
             </div>
-          </div>
+          </motion.div>
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 }
