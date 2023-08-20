@@ -6,22 +6,22 @@ import img3 from "./../assets/images/icons8-art-50.png";
 export default function Skills() {
   return (
     <section id="skills" className="bg-slate-300">
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.1 }}
-        transition={{ duration: 0.8 }}
-        variants={{
-          hidden: { opacity: 0, x: -50 },
-          visible: { opacity: 1, x: 0 },
-        }}
-      >
-        <div class="py-8 mx-auto w-4/5">
-          <div class="max-w-screen-lg mb-8 lg:mb-16">
-            <h2 class="mb-4 xxs:text-4xl sm:text-5xl font-teko text-6xl tracking-tight font-extrabold text-darkGrey">
-              MY SKILLS
-            </h2>
-          </div>
+      <div class="py-8 mx-auto w-4/5">
+        <div class="max-w-screen-lg mb-8 lg:mb-16">
+          <h2 class="mb-4 xxs:text-4xl sm:text-5xl font-teko text-6xl tracking-tight font-extrabold text-darkGrey">
+            MY SKILLS
+          </h2>
+        </div>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.1 }}
+          transition={{ duration: 0.8 }}
+          variants={{
+            hidden: { opacity: 0, x: -50 },
+            visible: { opacity: 1, x: 0 },
+          }}
+        >
           <div class="space-y-8 sm:grid mb-10 md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             <div className="bg-white shadow-lg p-5 rounded-lg">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12">
@@ -69,8 +69,8 @@ export default function Skills() {
               </p>
             </div>
           </div>
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
     </section>
   );
 }

@@ -4,7 +4,7 @@ import Landing from "./scenes/Landing";
 import Skills from "./scenes/Skills";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
-import Others from "./scenes/Others";
+import Map from "./scenes/Map";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Landing />
       <Skills />
       <Projects />
-      <Others/>
+      <Map/>
       <Contact />
       <Footer />
     </div>
