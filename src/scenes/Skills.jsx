@@ -3,6 +3,20 @@ import img1 from "./../assets/images/icons8-ui-ux-design-50 (1).png";
 import img2 from "./../assets/images/icons8-coding-50.png";
 import img3 from "./../assets/images/icons8-art-50.png";
 
+const fadeInAnimationVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      y:0
+    },
+  },
+};
+
 export default function Skills() {
   return (
     <section id="skills" className="bg-slate-300">
@@ -13,14 +27,10 @@ export default function Skills() {
           </h2>
         </div>
         <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.1 }}
-          transition={{ duration: 0.8 }}
-          variants={{
-            hidden: { opacity: 0, x: -50 },
-            visible: { opacity: 1, x: 0 },
-          }}
+          variants={fadeInAnimationVariants}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
         >
           <div class="space-y-8 sm:grid mb-10 md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             <div className="bg-white shadow-lg p-5 rounded-lg">
