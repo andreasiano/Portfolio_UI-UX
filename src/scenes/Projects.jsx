@@ -32,7 +32,7 @@ export default function Projects() {
                 This is a complete travel mobile app experience built with
                 figma. You can take a look at it if you want to!
               </p>
-              <button class="font-teko bg-transparent hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded">
+              <button class="font-teko lg:p-6 xxs:p-2 xxs:text-xl lg:text-2xl bg-transparent hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded">
                 <a href="https://www.figma.com/file/bohhBEUAqAzkZO6bV7XcxC/Travel-Mobile-App?type=design&node-id=0-1&mode=design&t=UzkrEtZFTmOzgoWA-0">
                   SEE MY PROTOTYPE
                 </a>
@@ -56,7 +56,7 @@ export default function Projects() {
                 understanding of marvellous places, where ghosts, gods and
                 spirits dwell.
               </p>
-              <button class=" font-teko bg-transparent hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded">
+              <button class="lg:p-6 xxs:p-2 xxs:text-xl lg:text-2xl font-teko bg-transparent hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded">
                 <a href="https://east-asian-blog.netlify.app/">
                   SEE MY PROTOTYPE
                 </a>
