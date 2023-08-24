@@ -114,7 +114,7 @@ export default function Landing() {
                 </g>
               </svg>
             </a>
-            <a href="https://www.instagram.com/andre_onais90/">
+            <a href="https://www.instagram.com/andy_s.thought/">
               <svg
                 className="inline-flex mr-3 items-start justify-start"
                 xmlns="http://www.w3.org/2000/svg"
