@@ -54,7 +54,7 @@ export default function Landing() {
                 </g>
               </svg>
             </a>
-            <a href="">
+            <a href="https://dribbble.com/Pensieri90">
               <svg
                 className="inline-flex mr-3 items-start justify-start"
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ export default function Landing() {
                 </g>
               </svg>
             </a>
-            <a href="">
+            <a href="https://www.pinterest.it/andrejazz2011/_created/">
               <svg
                 className="inline-flex mr-3 items-start justify-start"
                 xmlns="http://www.w3.org/2000/svg"

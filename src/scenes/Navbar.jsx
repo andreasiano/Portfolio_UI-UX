@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="z-40 sticky top-0 w-full py-6">
       <div className="flex items-center justify-between mx-auto w-4/5">
         <h4 className="font-teko xxs:text-2xl xs:text-3xl lg:text-4xl text-white">
-          ANDREA PENSIERI
+          <a href="">ANDREA PENSIERI</a>
         </h4>
         {/* DESKTOP NAV */}
         {isDesktop ? (
