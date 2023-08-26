@@ -41,6 +41,7 @@ const cards = [
     content:
       "Tia Almaz is an artist an cook based in Bologna. Follow her on instagram to discover the secrets of ethiopian coffe!",
     button: "LEARN MORE",
+    href: "https://www.pinterest.it/pin/896638607045785254/",
   },
   {
     id: 5,
