@@ -2,6 +2,7 @@ import img1 from "./../assets/images/travel-app.png";
 import img2 from "./../assets/images/Blog.png";
 import img3 from "./../assets/images/GamingApp.png";
 import img4 from "./../assets/images/kitsune.png";
+import img5 from "./../assets/images/Social App.png";
 import { motion } from "framer-motion";
 
 export default function Projects() {
@@ -110,6 +111,30 @@ export default function Projects() {
               <button class="lg:p-6 xxs:p-2 xxs:text-xl lg:text-2xl font-teko bg-transparent hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded">
                 <a href="https://www.pinterest.it/andrejazz2011/_created/">
                   SEE MY WORKS
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="relative w-4/5 mx-auto mb-10 mt-10">
+            <img
+              class="md:h-[50vh] lg:h-[80vh] sm:h-[70vh] xxs:h-[60vh] w-full object-cover rounded-md"
+              src={img5}
+            ></img>
+            <div class="absolute inset-0 bg-black opacity-70 rounded-md"></div>
+            <div class="absolute inset-0 flex items-start flex-col justify-center px-6">
+              <h4 className="font-teko text-gray-400 pb-5 font-regular max-w-[400px] text-[20px] ">
+                UI UX DESIGN
+              </h4>
+              <h1 class="text-white xxs:text-2xl sm:text-3xl md:text-4xl max-w-[400px] leading-10 font-teko lg:text-5xl mb-2 font-bold">
+                SOCIAL MEDIA APP
+              </h1>
+              <p className="font-sans text-white pb-5 font-regular max-w-[400px] xxs:text-[15px] lg:text-[20px] ">
+                This is a social media app. I got inspired a lot by Instagram
+                and Facebook!
+              </p>
+              <button class="lg:p-6 xxs:p-2 xxs:text-xl lg:text-2xl font-teko bg-transparent hover:bg-white text-white font-regular hover:text-black transition duration-500 py-2 px-4 border border-white hover:border-transparent rounded">
+                <a href="https://www.figma.com/file/uEAdz7u5zXdx2ihP1IgvAv/Social-Media-App?type=design&node-id=0-1&mode=design&t=yTG06TkCklZ1siY3-0">
+                  SEE MY PROTOTYPE
                 </a>
               </button>
             </div>
