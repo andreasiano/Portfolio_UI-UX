@@ -63,6 +63,17 @@ const cards = [
     button: "LEARN MORE",
     href: "https://dev-vivilittlegreen.pantheonsite.io/",
   },
+  {
+    id: 7,
+    title: "SOCIAL MEDIA APP",
+    hashtag1: "#UI UX DESIGN",
+    hashtag2: "FIGMA",
+    content:
+      "This is a social media app. I got inspired a lot by Instagram and Facebook!",
+    button: "LEARN MORE",
+    href:
+      "https://www.figma.com/file/uEAdz7u5zXdx2ihP1IgvAv/Social-Media-App?type=design&node-id=0-1&mode=design&t=E0UgvqOio4fH0YrM-0",
+  },
 ];
 
 const fadeInAnimationVariants = {
