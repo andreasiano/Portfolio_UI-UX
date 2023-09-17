@@ -8,14 +8,14 @@ const Navbar = () => {
   const isDesktop = useMediaQuery("(min-width: 768px)");
 
   return (
-    <nav className="z-40 sticky top-0 w-full py-6">
+    <nav className="z-40 sticky font-teko top-0 w-full py-6 text-slate-200">
       <div className="flex items-center justify-between mx-auto w-4/5">
-        <h4 className="font-teko xxs:text-2xl xs:text-3xl lg:text-4xl text-white">
+        <h4 className="xxs:text-lg font-semibold xs:text-xl lg:text-2xl">
           <a href="">ANDREA PENSIERI</a>
         </h4>
         {/* DESKTOP NAV */}
         {isDesktop ? (
-          <div className="flex font-teko justify-between text-white gap-6 text-[20px] font-semibold">
+          <div className="flex justify-between gap-6 text-[15px]">
             <Link to="/" spy={true} smooth={true} offset={0} duration={500}>
               <a href="">HOME</a>
             </Link>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&family=Teko:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600;700&family=Teko:wght@600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,7 +8,8 @@ html,
 body,
 #root,
 .app {
-    background-color: rgb(56, 78, 97); 
+    background-color: rgb(130, 179, 222); 
+    font-family: 'Open Sans', sans-serif
 } 
 
 html {
@@ -24,9 +25,9 @@ html {
 
 .outer-container {
     margin: 24px;
-    border: 1px solid rgb(227, 226, 226);
+    border: 5px solid rgb(255, 255, 255);
     overflow: hidden;
-    background-color: #2D2B2B;
+    background-color: rgb(33, 33, 37);
 }
 
 @media screen and (max-width: 500px) {

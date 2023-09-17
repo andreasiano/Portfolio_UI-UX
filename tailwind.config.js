@@ -8,8 +8,8 @@ module.exports = {
         darkGrey: "#2D2B2B",
       },
       fontFamily: {
-        teko: ["teko", "sans-serif"],
-        sourcesans: ["sourcesans", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"], 
+        teko: ["teko" , "sans-serif"]
       },
     },
     screens: {

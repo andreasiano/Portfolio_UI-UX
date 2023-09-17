@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import img1 from "./../assets/images/myimage-2.jpg";
+import img1 from "./../assets/images/laptop.png";
 
 export default function Landing() {
   return (
@@ -17,12 +17,11 @@ export default function Landing() {
             }}
           >
             <h1 class="max-w-2xl mb-4 text-4xl font-teko font-extrabold tracking-tight leading-none md:text-6xl xl:text-7xl text-white">
-              UI UX DESIGNER & FRONT END DEVELOPER
+              I am ANDREA S. <span className="text-blue-300">PENSIERI.</span>
             </h1>
             <p class="max-w-2xl mb-6 font-light font-sans lg:mb-6 md:text-lg lg:text-xl text-gray-400">
-              Hello! I'm Andrea a UI UX Designer and Developer based in Italy. I
-              can code, design and prototype beautiful and responsive web
-              applications!
+              A Front End Developer based in Italy. I can code, design and
+              prototype beautiful and responsive web applications!
             </p>
             <a href="https://www.facebook.com/andrew.onais.9/?paipv=0&eav=Afa5uhlGs_onh2HMqBdvsaEiFm8mMpnhcXeALi7FbXXEzvqkhVzfxGC_-cvJZ5TcBPM&_rdr">
               <svg
@@ -50,66 +49,6 @@ export default function Landing() {
                 >
                   <g transform="scale(5.12,5.12)">
                     <path d="M25,3c-12.15,0 -22,9.85 -22,22c0,11.03 8.125,20.137 18.712,21.728v-15.897h-5.443v-5.783h5.443v-3.848c0,-6.371 3.104,-9.168 8.399,-9.168c2.536,0 3.877,0.188 4.512,0.274v5.048h-3.612c-2.248,0 -3.033,2.131 -3.033,4.533v3.161h6.588l-0.894,5.783h-5.694v15.944c10.738,-1.457 19.022,-10.638 19.022,-21.775c0,-12.15 -9.85,-22 -22,-22z"></path>
-                  </g>
-                </g>
-              </svg>
-            </a>
-            <a href="https://dribbble.com/Pensieri90">
-              <svg
-                className="inline-flex mr-3 items-start justify-start"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0,0,256,256"
-                width="30px"
-                height="30px"
-                fill-rule="nonzero"
-              >
-                <g
-                  fill="#ffffff"
-                  fill-rule="nonzero"
-                  stroke="none"
-                  stroke-width="1"
-                  stroke-linecap="butt"
-                  stroke-linejoin="miter"
-                  stroke-miterlimit="10"
-                  stroke-dasharray=""
-                  stroke-dashoffset="0"
-                  font-family="none"
-                  font-weight="none"
-                  font-size="none"
-                  text-anchor="none"
-                >
-                  <g transform="scale(5.33333,5.33333)">
-                    <path d="M24,4c-11.02793,0 -20,8.97207 -20,20c0,11.02793 8.97207,20 20,20c11.02793,0 20,-8.97207 20,-20c0,-11.02793 -8.97207,-20 -20,-20zM24,7c4.14231,0 7.92952,1.47634 10.875,3.92773c-2.75263,2.42336 -5.90023,4.39541 -9.29492,5.9082c-1.76855,-3.21635 -3.68842,-6.33517 -5.84375,-9.27734c1.36423,-0.3515 2.78785,-0.55859 4.26367,-0.55859zM16.78516,8.61719c2.21238,2.92554 4.16447,6.04707 5.96094,9.26953c-3.69563,1.28391 -7.60838,2.11328 -11.74609,2.11328c-1.16764,0 -2.31866,-0.07784 -3.46094,-0.18945c1.25785,-4.97528 4.69188,-9.05906 9.24609,-11.19336zM37.00195,13.04688c2.45922,2.91805 3.95155,6.67491 3.99023,10.79102c-2.15953,-0.5417 -4.41625,-0.83789 -6.74219,-0.83789c-1.8281,0 -3.59424,0.23597 -5.32422,0.57422c-0.60255,-1.39586 -1.2625,-2.75241 -1.94141,-4.10547c3.65931,-1.65484 7.05608,-3.79252 10.01758,-6.42187zM24.17773,20.57031c0.63352,1.25132 1.27238,2.49353 1.83789,3.7832c-6.0624,1.89613 -11.26637,5.74523 -14.75781,10.88477c-2.64245,-2.99509 -4.25781,-6.91896 -4.25781,-11.23828c0,-0.41439 0.03352,-0.81971 0.0625,-1.22656c1.29529,0.1328 2.60335,0.22656 3.9375,0.22656c4.64338,0 9.0451,-0.93675 13.17773,-2.42969zM34.25,26c2.24879,0 4.41834,0.31937 6.48828,0.88281c-0.78479,4.60653 -3.40219,8.57476 -7.09375,11.11914c-0.8892,-3.93705 -2.13392,-7.73284 -3.55859,-11.43945c1.37421,-0.23657 2.72109,-0.5625 4.16406,-0.5625zM27.0918,27.125c1.57089,4.00063 2.91442,8.11641 3.81445,12.40625c-2.1105,0.9373 -4.44343,1.46875 -6.90625,1.46875c-3.98932,0 -7.64289,-1.37739 -10.53906,-3.66797c3.14794,-4.85467 7.96982,-8.49089 13.63086,-10.20703z"></path>
-                  </g>
-                </g>
-              </svg>
-            </a>
-            <a href="https://www.pinterest.it/andrejazz2011/_created/">
-              <svg
-                className="inline-flex mr-3 items-start justify-start"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0,0,256,256"
-                width="30px"
-                height="30px"
-                fill-rule="nonzero"
-              >
-                <g
-                  fill="#ffffff"
-                  fill-rule="nonzero"
-                  stroke="none"
-                  stroke-width="1"
-                  stroke-linecap="butt"
-                  stroke-linejoin="miter"
-                  stroke-miterlimit="10"
-                  stroke-dasharray=""
-                  stroke-dashoffset="0"
-                  font-family="none"
-                  font-weight="none"
-                  font-size="none"
-                  text-anchor="none"
-                >
-                  <g transform="scale(5.12,5.12)">
-                    <path d="M25,2c-12.6907,0 -23,10.3093 -23,23c0,12.69071 10.3093,23 23,23c12.69071,0 23,-10.30929 23,-23c0,-12.6907 -10.30929,-23 -23,-23zM25,4c11.60983,0 21,9.39017 21,21c0,11.60983 -9.39017,21 -21,21c-2.12364,0 -4.17229,-0.31786 -6.10352,-0.90234c0.86025,-1.43824 1.97086,-3.49407 2.41211,-5.19141c0.26213,-1.00636 1.33984,-5.11133 1.33984,-5.11133c0.7004,1.33714 2.74684,2.46875 4.92578,2.46875c6.4839,0 11.1582,-5.96299 11.1582,-13.37305c0,-7.1041 -5.79701,-12.41797 -13.25586,-12.41797c-9.27973,0 -14.20508,6.22817 -14.20508,13.00977c0,3.15388 1.67744,7.07977 4.36328,8.33008c0.40684,0.18937 0.62531,0.10733 0.71875,-0.28711c0.07194,-0.29935 0.43475,-1.7586 0.59766,-2.4375c0.0521,-0.21665 0.02687,-0.40384 -0.14844,-0.61719c-0.88894,-1.0783 -1.60156,-3.0589 -1.60156,-4.90625c0,-4.74241 3.59028,-9.33203 9.70703,-9.33203c5.28156,0 8.98047,3.60045 8.98047,8.74805c0,5.81575 -2.9366,9.8457 -6.75781,9.8457c-2.11031,0 -3.6905,-1.74581 -3.18359,-3.88672c0.60779,-2.55519 1.78125,-5.31251 1.78125,-7.1582c0,-1.65054 -0.88576,-3.02734 -2.7207,-3.02734c-2.15744,0 -3.89062,2.23055 -3.89062,5.2207c0,1.90275 0.64453,3.19141 0.64453,3.19141c0,0 -2.13118,9.0105 -2.52148,10.6875c-0.39114,1.67579 -0.28638,3.93285 -0.125,5.61328c-7.6941,-3.11433 -13.11523,-10.64747 -13.11523,-19.4668c0,-11.60982 9.39017,-21 21,-21z"></path>
                   </g>
                 </g>
               </svg>
@@ -147,7 +86,6 @@ export default function Landing() {
             <a href="https://github.com/andreasiano?tab=repositories">
               <svg
                 className="inline-flex mr-3 items-start justify-start"
-                xmlns="http://www.w3.org/2000/svg"
                 viewBox="0,0,256,256"
                 width="30px"
                 height="30px"
@@ -174,6 +112,34 @@ export default function Landing() {
                 </g>
               </svg>
             </a>
+            <a href="https://github.com/andreasiano?tab=repositories">
+              <svg
+                className="inline-flex mr-3 items-start justify-start"
+                viewBox="0,0,256,256"
+                width="33px"
+                height="33px"
+              >
+                <g
+                  fill="#ffffff"
+                  fill-rule="nonzero"
+                  stroke="none"
+                  stroke-width="1"
+                  stroke-linecap="butt"
+                  stroke-linejoin="miter"
+                  stroke-miterlimit="10"
+                  stroke-dasharray=""
+                  stroke-dashoffset="0"
+                  font-family="none"
+                  font-weight="none"
+                  font-size="none"
+                  text-anchor="none"
+                >
+                  <g transform="scale(4,4)">
+                    <path d="M48,8h-32c-4.418,0 -8,3.582 -8,8v32c0,4.418 3.582,8 8,8h32c4.418,0 8,-3.582 8,-8v-32c0,-4.418 -3.582,-8 -8,-8zM24,47h-5v-20h5zM24.029,23.009c-0.647,0.66 -1.491,0.991 -2.529,0.991c-1.026,0 -1.865,-0.341 -2.519,-1.023c-0.654,-0.682 -0.981,-1.519 -0.981,-2.509c0,-1.02 0.327,-1.852 0.981,-2.498c0.654,-0.647 1.493,-0.97 2.519,-0.97c1.038,0 1.882,0.323 2.529,0.969c0.647,0.646 0.971,1.479 0.971,2.499c0,1.034 -0.324,1.881 -0.971,2.541zM47,47h-5v-11.113c0,-3.099 -1.786,-4.887 -4,-4.887c-1.067,0 -2.274,0.648 -2.965,1.469c-0.691,0.821 -1.035,1.862 -1.035,3.125v11.406h-5v-20h5v3.164h0.078c1.472,-2.435 3.613,-3.644 6.426,-3.652c3.996,-0.012 6.496,2.988 6.496,8.242z"></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
           </motion.div>
         </div>
         <div class="mt-6 lg:col-span-5 lg:flex">
@@ -183,6 +149,5 @@ export default function Landing() {
     </section>
   );
 }
-
 
 

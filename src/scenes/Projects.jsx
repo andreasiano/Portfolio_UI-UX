@@ -2,7 +2,6 @@ import img1 from "./../assets/images/travel-app.png";
 import img2 from "./../assets/images/Blog.png";
 import img3 from "./../assets/images/GamingApp.png";
 import img4 from "./../assets/images/kitsune.png";
-import img5 from "./../assets/images/Social App.png";
 import { motion } from "framer-motion";
 
 export default function Projects() {
