@@ -8,7 +8,7 @@ const Navbar = () => {
   const isDesktop = useMediaQuery("(min-width: 768px)");
 
   return (
-    <nav className="z-40 sticky font-teko top-0 w-full py-6 text-slate-200">
+    <nav className="z-40 font-teko top-0 w-full py-6 text-slate-200">
       <div className="flex items-center justify-between mx-auto w-4/5">
         <h4 className="xxs:text-lg font-semibold xs:text-xl lg:text-2xl">
           <a href="">ANDREA PENSIERI</a>

@@ -7,7 +7,7 @@ import Map from "./scenes/Map";
 
 function App() {
   return (
-    <div className="app outer-container rounded-md">
+    <div>
       <Navbar />
       <Landing />
       <Projects />
