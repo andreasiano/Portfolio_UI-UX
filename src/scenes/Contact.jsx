@@ -13,7 +13,7 @@ export default function Contact() {
       </p>
       <a href="">
         <p className="text-gray-400 md:w-[500px] xxs:w-[300px] hover:text-white xxs:text-[20px] lg:text-2xl mb-20 font-teko underline transition duration-500">
-          <a href="mailto:andrejazz2011@gmail.com">Email me at andrejazz2011@gmail.com</a>
+          <a href="mailto:andrejazz2011@gmail.com">Email me at andreadevpensieri@gmail.com</a>
         </p>
       </a>
     </div>
