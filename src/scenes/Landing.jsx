@@ -19,7 +19,7 @@ export default function Landing() {
             <h1 class="max-w-2xl xxs:mt-3 xs:mt-8 xxs:text-5xl xs:text-5xl mb-4 text-4xl font-teko font-extrabold tracking-tight leading-none md:text-6xl xl:text-7xl text-white">
               I am ANDREA S. <span className="text-blue-300">PENSIERI.</span>
             </h1>
-            <p class="max-w-2xl mb-6 font-light xs:text-3xl font-sans lg:mb-6 xxs:text-2xl md:text-lg lg:text-4xl text-gray-400">
+            <p class="lg:max-w-[500px] mb-6 font-light xs:text-3xl font-sans lg:mb-6 xxs:text-2xl md:text-lg lg:text-4xl text-gray-400">
               A Front End Developer based in Italy. I can code, design and
               prototype beautiful and responsive web applications!
             </p>
