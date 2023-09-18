@@ -4,8 +4,8 @@ import img1 from "./../assets/images/laptop.png";
 export default function Landing() {
   return (
     <section id="home">
-      <div class="grid md:w-4/5 sm:w-2/3 py-8 mx-auto lg:gap-8 sm:gap-4 lg:py-20 md:grid-cols-2 lg:grid-cols-12 mb-7">
-        <div class="mr-auto md:text-start lg:text-start lg:col-span-7">
+      <div class="grid xxs:w-4/5 md:w-4/5 sm:w-2/3 py-8 mx-auto lg:gap-8 sm:gap-4 lg:py-20 md:grid-cols-2 lg:grid-cols-12 mb-7">
+        <div class="mr-auto lg:mt-10 md:text-start lg:text-start lg:col-span-7">
           <motion.div
             initial="hidden"
             whileInView="visible"
