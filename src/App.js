@@ -1,21 +1,28 @@
-import Navbar from "./scenes/Navbar";
-import Projects from "./scenes/Projects";
-import Landing from "./scenes/Landing";
-import Contact from "./scenes/Contact";
-import Footer from "./scenes/Footer";
-import Map from "./scenes/Map";
+import styles from "./style";
+import {
+  Navbar,
+  Hero,
+} from "./components";
 
-function App() {
-  return (
-    <div>
-      <Navbar />
-      <Landing />
-      <Projects />
-      <Map/>
-      <Contact />
-      <Footer />
+const App = () => (
+  <div className="bg-primary w-full overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Navbar />
+      </div>
     </div>
-  );
-}
+
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Hero />
+      </div>
+    </div>
+
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+      </div>
+    </div>
+  </div>
+);
 
 export default App;
