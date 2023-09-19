@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../style';
 import coding from '../assets/coding.svg'
-import ContactMe from './ContactMe';
+
 
 const Hero = () => {
   return (
@@ -10,16 +10,13 @@ const Hero = () => {
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
       <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+        className={`flex-2 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             Building <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Digital Products</span>,{" "}
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0">
-            <ContactMe />
-          </div>
         </div>
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
           Coding and More...
@@ -43,10 +40,6 @@ const Hero = () => {
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
         {/* gradient end */}
-      </div>
-
-      <div className={`ss:hidden ${styles.flexCenter}`}>
-        <ContactMe />
       </div>
     </section>
   );
