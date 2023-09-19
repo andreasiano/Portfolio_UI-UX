@@ -1,7 +1,9 @@
 import styles from "./style";
+import img from "./assets/img.jpg"
 import {
   Navbar,
   Hero,
+  ImageCard
 } from "./components";
 
 const App = () => (
@@ -17,9 +19,14 @@ const App = () => (
         <Hero />
       </div>
     </div>
-
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+    <div
+      className={`bg-dimWhite ${styles.paddingY} ${styles.paddingX} ${styles.flexCenter}`}
+    >
       <div className={`${styles.boxWidth}`}>
+        <div className="lg:flex gap-10 lg:mb-10">
+          <ImageCard/>
+          <ImageCard/>
+        </div>
       </div>
     </div>
   </div>
