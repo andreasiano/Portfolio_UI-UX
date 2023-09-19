@@ -34,14 +34,14 @@ const [toggle, setToggle] = useState(false)
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } p-6 bg-black-gradient absolute top-10 right-0 mx-4 my-2 min-w-[150px] rounded-xl sidebar`}
+          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-5 min-w-[300px] rounded-xl sidebar`}
         >
           <ul className="list-none flex-col justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
               <li
                 className={`text-dimWhite ${
                   index === navLinks.length - 1 ? "mr-0" : "mb-4"
-                } text-[16px] text-center cursor-pointer`}
+                } text-[35px] text-center cursor-pointer`}
                 key={nav.id}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
