@@ -18,14 +18,17 @@ export default function ImageCards() {
             <h1 className="lg:text-[50px] sm:text-[50px] xxs:text-xl xxs:mb-4 font-bold">
               {item.title}
             </h1>
-            <p className="max-w-[500px] lg:text-xl sm:text-2xl sm:mb-5 sm:mt-5 lg:mb-5 xxs:mb-2">
+            <p className="max-w-[500px] font-semibold lg:text-xl sm:text-2 xxs:text-md sm:mb-5 sm:mt-5 lg:mb-5 xxs:mb-2">
               {item.description}
             </p>
             <button
               type="button"
-              className="inline-flex sm:text-2xl items-center lg:text-xl">
+              className="inline-flex font-extrabold sm:text-2xl items-center lg:text-xl"
+            >
               {item.button}
-              <a href='' className='ml-3'>{item.icon}</a>
+              <a href="" className="ml-3">
+                {item.icon}
+              </a>
             </button>
           </div>
         </div>
