@@ -34,7 +34,7 @@ const [toggle, setToggle] = useState(false)
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } p-6 bg-black-gradient absolute top-16 right-0 mx-4 my-5 w-full rounded-xl sidebar`}
+          } p-6 bg-black-gradient absolute top-16 left-0 right-0  my-5 w-full sidebar`}
         >
           <ul className="list-none flex-col justify-end items-center flex-1">
             {navLinks.map((nav, index) => (

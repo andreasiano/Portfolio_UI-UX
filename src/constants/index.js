@@ -19,34 +19,26 @@ export const navLinks = [
   },
 ];
 
-export const rowData1 = [
+export const imgData = [
   {
+    id: 1,
     title: "East Asian Blog",
-    link: "https://east-asian-blog.netlify.app/",
     img: img1,
-    description: 'Project1'
   },
   {
-    title: "Siepelunga24",
-    link: "https://siepelunga24.netlify.app/",
-    img: img1,
-    description: 'Project2'
-  },
-];
-
-export const rowData2 = [
-  {
+    id: 2,
     title: "Sorrentino Photography",
-    link: "https://sorrentinoportfolio.netlify.app/",
     img: img1,
-    description: 'Project3'
   },
   {
-    title: "Vivi Littlegreen",
-    link: "https://dev-vivilittlegreen.pantheonsite.io/",
+    id: 3,
+    title: "Siepelunga24",
     img: img1,
-    description: 'Project4'
+  },
+  {
+    id: 4,
+    title: "Vivi Littlegreen",
+    img: img1,
   },
 ];
-
 

@@ -25,7 +25,6 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <div className="lg:flex gap-10 lg:mb-10">
           <ImageCard/>
-          <ImageCard/>
         </div>
       </div>
     </div>
