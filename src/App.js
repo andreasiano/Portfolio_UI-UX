@@ -1,5 +1,4 @@
 import styles from "./style";
-import img from "./assets/img.jpg"
 import {
   Navbar,
   Hero,

@@ -11,7 +11,7 @@ module.exports = {
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        teko: ["teko", "sans-serif"],
+        dmdisplay: ["DM Serif Display", "sans-serif"],
       },
     },
     screens: {
