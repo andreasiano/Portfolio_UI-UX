@@ -11,7 +11,7 @@ const Hero = () => {
       <div
         className={`flex-2 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[55px]">
+          <h1 className="flex-1 mt-5 font-poppins font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[55px]">
             Building <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Digital Products</span>,{" "}
           </h1>
@@ -24,7 +24,7 @@ const Hero = () => {
         </p>
       </div>
       <div
-        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+        className={`flex-1 flex ${styles.flexCenter} pb-6 md:my-0 my-10 relative`}>
         <img
           src={coding}
           alt="billing"

@@ -20,7 +20,7 @@ const App = () => (
       </div>
     </div>
     <div
-      className={`bg-dimWhite ${styles.paddingY} ${styles.paddingX} ${styles.flexCenter}`}
+      className={`bg-white ${styles.paddingY} ${styles.paddingX} ${styles.flexCenter}`}
     >
       <div className={`${styles.boxWidth}`}>
         <div className="lg:flex gap-10 lg:mb-10">

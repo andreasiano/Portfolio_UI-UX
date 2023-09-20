@@ -8,7 +8,7 @@ import menu from '../assets/icons8-hamburger-menu.svg'
 export default function Navbar() {
 const [toggle, setToggle] = useState(false)
   return (
-    <div className="w-full flex py-6 font-poppins justify-between items-center navbar">
+    <nav className="w-full flex py-6 justify-between items-center navbar">
       <h1 className="text-2xl xxs:text-[20px] text-dimWhite font-bold tracking-tighter">
         ANDREA PENSIERI
       </h1>
@@ -34,7 +34,7 @@ const [toggle, setToggle] = useState(false)
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-5 min-w-[300px] rounded-xl sidebar`}
+          } p-6 bg-black-gradient absolute top-16 right-0 mx-4 my-5 w-full rounded-xl sidebar`}
         >
           <ul className="list-none flex-col justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
@@ -50,6 +50,6 @@ const [toggle, setToggle] = useState(false)
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
