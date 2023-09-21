@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row gap-10 flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row xxs:gap-0 gap-10 flex-col ${styles.paddingY}`}
     >
       <div
         className={`flex-2 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
@@ -32,7 +32,7 @@ const Hero = () => {
         <img
           src={portrait}
           alt="billing"
-          className="w-[100%] h-[100%] relative z-[5]"
+          className="w-[100%] h-[100%] xxs:mb-30 relative z-[5]"
         />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
