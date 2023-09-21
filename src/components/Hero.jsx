@@ -21,8 +21,8 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[42px] text-white ss:leading-[100.8px] leading-[55px] w-full">
           Coding and More...
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          I am <span className="text-gradient">Andrea S. Pensieri</span>, a
+        <p className={`${styles.paragraph} max-w-[470px] xxs:text-xl lg:text-2xl mt-5`}>
+          I am <span className="text-gradient font-bold">Andrea S. Pensieri</span>, a
           Front End Developer with two years of experience as a freelancer.
         </p>
       </div>

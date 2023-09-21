@@ -3,7 +3,7 @@ import { imgData } from "../constants";
 
 export default function ImageCards() {
   return (
-    <div className="grid lg:grid-cols-2 gap-10">
+    <div id='works' className="grid lg:grid-cols-2 gap-10">
       {imgData.map((item, index) => (
         <a href={item.link}>
           <div

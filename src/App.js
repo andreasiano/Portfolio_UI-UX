@@ -2,7 +2,8 @@ import styles from "./style";
 import {
   Navbar,
   Hero,
-  ImageCard
+  ImageCard,
+  ContactMe,
 } from "./components";
 
 const App = () => (
@@ -12,7 +13,6 @@ const App = () => (
         <Navbar />
       </div>
     </div>
-
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
@@ -23,10 +23,15 @@ const App = () => (
     >
       <div className={`${styles.boxWidth}`}>
         <div className="lg:flex gap-10 lg:mb-10">
-          <ImageCard/>
+          <ImageCard />
         </div>
       </div>
     </div>
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <ContactMe/>
+        </div>
+      </div>
   </div>
 );
 

@@ -1,15 +1,22 @@
 import React from 'react'
 import { useState } from 'react'
 import { navLinks } from "../constants";
-import menu from '../assets/icons8-hamburger-menu.svg'
-import close from '../assets/close.svg'
-
+import { BiMenuAltRight } from "react-icons/bi"
+import { AiOutlineClose } from "react-icons/ai";
 
 export default function Navbar() {
-const [toggle, setToggle] = useState(false)
+  const [nav, setNav] = useState(false)
+  const handleNav = () => {
+    setNav(!nav)
+    if (!nav) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = "scroll";
+    }
+  }
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <h1 className="text-2xl xxs:text-[20px] text-dimWhite font-bold tracking-tighter">
+      <h1 className="text-2xl xxs:text-[20px] text-white font-bold tracking-tighter">
         ANDREA PENSIERI
       </h1>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
@@ -24,27 +31,31 @@ const [toggle, setToggle] = useState(false)
           </li>
         ))}
       </ul>
-      <div className="sm:hidden cursor-pointer flex flex-1 justify-end items-center">
-        <img
-          src={toggle ? close : menu}
-          alt="menu"
-          className="w-[40px] h-[40px] object-contain"
-          onClick={() => setToggle((prev) => !prev)}
-        />
+      <div className="sm:hidden z-40 cursor-pointer w-full flex flex-1 justify-end items-center">
+        {nav ? (
+          <AiOutlineClose
+            onClick={handleNav}
+            className="z-40 text-white"
+            size={50}
+          />
+          ) : (
+          <BiMenuAltRight
+            onClick={handleNav}
+            className="z-40 text-white"
+            size={50}
+          />
+        )}
         <div
-          className={`${
-            toggle ? "flex" : "hidden"
-          } p-6 bg-black-gradient absolute top-16 left-0 right-0  my-5 w-full sidebar`}
+          className={
+            nav
+              ? "fixed text-gray-300 left-0 top-0 w-full h-screen bg-indigo-900/90 px-4 py-7 flex-col"
+              : "hidden"
+          }
         >
-          <ul className="list-none flex-col justify-end items-center flex-1">
+          <ul className="flex flex-col fixed top-0 left-0 w-full h-full items-center justify-center">
             {navLinks.map((nav, index) => (
-              <li
-                className={`text-dimWhite ${
-                  index === navLinks.length - 1 ? "mr-0" : "mb-4"
-                } text-[35px] text-center cursor-pointer`}
-                key={nav.id}
-              >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+              <li className="font-bold text-3xl p-5" key={nav.id}>
+                <a onClick={handleNav} href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
           </ul>
