@@ -48,7 +48,7 @@ export default function Navbar() {
         <div
           className={
             nav
-              ? "fixed text-gray-300 left-0 top-0 w-full h-screen bg-indigo-900/90 px-4 py-7 flex-col"
+              ? "fixed text-gray-300 left-0 top-0 w-full h-screen bg-black-gradient px-4 py-7 flex-col"
               : "hidden"
           }
         >
