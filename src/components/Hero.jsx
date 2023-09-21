@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style';
-import coding from '../assets/coding.svg'
+import portrait from "../assets/portrait.png";
 
 
 const Hero = () => {
@@ -30,7 +30,7 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} pb-6 md:my-0 my-10 relative`}
       >
         <img
-          src={coding}
+          src={portrait}
           alt="billing"
           className="w-[100%] h-[100%] relative z-[5]"
         />

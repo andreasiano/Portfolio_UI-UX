@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 import { navLinks } from "../constants";
-import close from '../assets/close.svg'
 import menu from '../assets/icons8-hamburger-menu.svg'
+import close from '../assets/close.svg'
 
 
 export default function Navbar() {

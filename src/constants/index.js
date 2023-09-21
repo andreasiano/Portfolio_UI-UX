@@ -2,7 +2,7 @@ import img1 from '../assets/Blog.png'
 import img2 from '../assets/Sorrentino.png'
 import img3 from '../assets/Siepelunga.png'
 import img4 from '../assets/ViviLittlle.png'
-import {BsFillArrowRightCircleFill} from 'react-icons/bs'
+import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 export const navLinks = [
   {
