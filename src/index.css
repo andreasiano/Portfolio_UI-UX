@@ -30,6 +30,7 @@ html,
   background: -webkit-linear-gradient(#def9fa, #def9fa, #bef3f5, #7de7eb, #5ce1e6, #33bbcf);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-decoration: underline;
 }
 
 .bg-blue-gradient {

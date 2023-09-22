@@ -1,28 +1,31 @@
 import React from 'react'
 import styles from '../style';
-import portrait from "../assets/portrait.png";
+import portrait from "../assets/myimage-2.jpg";
 
 
 const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row xxs:gap-0 gap-10 flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row xxs:gap-0 lg:gap-20 flex-col ${styles.paddingY}`}
     >
       <div
         className={`flex-2 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 mt-5 font-poppins font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[55px]">
+          <h1 className="flex-1 mt-5 font-dmdisplay font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[55px]">
             Building <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Digital Products</span>,{" "}
           </h1>
         </div>
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[42px] text-white ss:leading-[100.8px] leading-[55px] w-full">
+        <h1 className="font-semibold font-dmdisplay ss:text-[68px] text-[42px] text-white ss:leading-[100.8px] leading-[55px] w-full">
           Coding and More...
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] xxs:text-xl lg:text-2xl mt-5`}>
-          I am <span className="text-gradient font-bold">Andrea S. Pensieri</span>, a
+        <p
+          className={`${styles.paragraph} max-w-[470px] xxs:text-xl lg:text-2xl mt-5`}
+        >
+          I am{" "}
+          <span className="text-gradient font-bold">Andrea S. Pensieri</span>, a
           Front End Developer with two years of experience as a freelancer.
         </p>
       </div>
@@ -32,7 +35,7 @@ const Hero = () => {
         <img
           src={portrait}
           alt="billing"
-          className="w-[100%] h-[100%] xxs:mb-30 relative z-[5]"
+          className="w-[100%] h-[100%] xxs:mx-4 rounded-xl lg:px-0 xxs:px-6 xxs:mb-30 relative z-[5]"
         />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
