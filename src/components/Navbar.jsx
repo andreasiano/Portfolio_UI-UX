@@ -16,7 +16,7 @@ export default function Navbar() {
   }
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <h1 className="text-2xl xxs:text-[20px] text-white font-bold tracking-tighter">
+      <h1 className="lg:text-2xl xxs:text-[20px] text-white font-bold tracking-tighter">
         ANDREA PENSIERI
       </h1>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
@@ -24,7 +24,7 @@ export default function Navbar() {
           <li
             className={`text-dimWhite ${
               index === navLinks.length - 1 ? "mr-0" : "mr-5"
-            } text-[16px] cursor-pointer`}
+            } text-[20px] cursor-pointer`}
             key={nav.id}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>

@@ -22,7 +22,7 @@ const Hero = () => {
           Coding and More...
         </h1>
         <p
-          className={`${styles.paragraph} max-w-[470px] xxs:text-xl lg:text-2xl mt-5`}
+          className={`${styles.paragraph} max-w-[470px] sm:text-2xl xxs:text-xl lg:text-2xl mt-5`}
         >
           I am{" "}
           <span className="text-gradient font-bold">Andrea S. Pensieri</span>, a
@@ -35,7 +35,7 @@ const Hero = () => {
         <img
           src={portrait}
           alt="billing"
-          className="w-[100%] h-[100%] xxs:mx-4 rounded-xl lg:px-0 xxs:px-6 xxs:mb-30 relative z-[5]"
+          className="w-[100%] h-[100%] xxxs:px-5 xxs:mx-4 sm:px-[65px] rounded-xl lg:px-0 xxs:px-6 xxs:mb-30 relative z-[5]"
         />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />

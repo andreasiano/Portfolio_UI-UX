@@ -11,11 +11,12 @@ module.exports = {
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        dmdisplay: ["DM Serif Display", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
     screens: {
-      xxs: "200px",
+      xxxs: "200px",
+      xxs: "300px",
       xs: "480px",
       ss: "620px",
       sm: "768px",
