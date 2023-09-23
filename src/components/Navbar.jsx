@@ -22,7 +22,7 @@ export default function Navbar() {
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
-            className={`text-dimWhite ${
+            className={`text-dimWhite hover:text-blue-200 ${
               index === navLinks.length - 1 ? "mr-0" : "mr-5"
             } text-[20px] cursor-pointer`}
             key={nav.id}

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style';
-import portrait from "../assets/myimage-2.jpg";
+import portrait from "../assets/my image-vector.png";
 
 
 const Hero = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
       className={`flex md:flex-row xxs:gap-0 lg:gap-20 flex-col ${styles.paddingY}`}
     >
       <div
-        className={`flex-2 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+        className={`flex-2 ${styles.flexStart} flex-col`}
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 mt-5 font-dmdisplay font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[55px]">
@@ -35,7 +35,7 @@ const Hero = () => {
         <img
           src={portrait}
           alt="billing"
-          className="w-[100%] h-[100%] xxxs:px-5 xxs:mx-4 sm:px-[65px] rounded-xl lg:px-0 xxs:px-6 xxs:mb-30 relative z-[5]"
+          className="w-[100%] h-[100%] rounded-xl xxs:mb-30 relative z-[5]"
         />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
