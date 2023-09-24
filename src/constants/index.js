@@ -33,7 +33,7 @@ export const imgData = [
     id: 2,
     title: "Photography Project",
     img: img2,
-    description: "For this photography portfolio I used HTML, CSS and JavaScript Modals.",
+    description: "For this photography portfolio I used HTML, CSS, and JavaScript Modals.",
     button: "See Project",
     link: "https://sorrentinoportfolio.netlify.app/",
     icon: <BsFillArrowRightCircleFill/>
@@ -42,7 +42,7 @@ export const imgData = [
     id: 3,
     title: "Siepelunga24",
     img: img3,
-    description: "A Website for a cigar's club build with Lunevedy. A tool to speed up web development.",
+    description: "A Website for a cigar's club built with Lunevedy. A tool to speed up web development.",
     button: "See Project",
     link: "https://siepelunga24.netlify.app/",
     icon: <BsFillArrowRightCircleFill/>
