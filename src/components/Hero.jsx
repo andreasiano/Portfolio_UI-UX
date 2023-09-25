@@ -9,9 +9,7 @@ const Hero = () => {
       id="home"
       className={`flex md:flex-row xxs:gap-0 lg:gap-20 flex-col ${styles.paddingY}`}
     >
-      <div
-        className={`flex-2 ${styles.flexStart} flex-col`}
-      >
+      <div className={`flex-2 ${styles.flexStart} flex-col`}>
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 mt-5 font-dmdisplay font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[55px]">
             Building <br className="sm:block hidden" />{" "}
