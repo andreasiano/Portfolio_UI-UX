@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style';
-import portrait from "../assets/myimage-2.jpg";
+import portrait from "../assets/myimage-2.png";
 
 
 const Hero = () => {
