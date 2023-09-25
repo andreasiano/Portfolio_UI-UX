@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style';
-import portrait from "../assets/myimage-2.png";
+import portrait from "../assets/myimage-2.webp";
 
 
 const Hero = () => {
@@ -32,7 +32,7 @@ const Hero = () => {
       >
         <img
           src={portrait}
-          alt="billing"
+          alt="portrait"
           className="w-[100%] h-[100%] rounded-xl xxs:mb-30 relative z-[5]"
         />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
