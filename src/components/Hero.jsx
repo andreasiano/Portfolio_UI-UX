@@ -34,6 +34,8 @@ const Hero = () => {
           src={portrait}
           alt="portrait"
           className="w-[100%] h-[100%] rounded-xl xxs:mb-30 relative z-[5]"
+          width='640px'
+          height='720px'
         />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
