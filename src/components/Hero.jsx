@@ -24,7 +24,7 @@ const Hero = () => {
         >
           I am{" "}
           <span className="text-gradient font-bold">Andrea S. Pensieri</span>, a
-          Front End Developer with two years of experience as a freelancer.
+          UI UX Designer with two years of experience as a freelancer.
         </p>
       </div>
       <div
