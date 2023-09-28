@@ -1,7 +1,7 @@
 import img1 from '../assets/Blog.webp'
-import img2 from '../assets/Sorrentino-2.png'
-import img3 from '../assets/TravelApp.jpg'
-import img4 from '../assets/Wallet.png'
+import img2 from '../assets/Sorrentino.webp'
+import img3 from '../assets/TravelApp.webp'
+import img4 from '../assets/Wallet.webp'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 export const navLinks = [
