@@ -1,6 +1,6 @@
-import img1 from '../assets/Blog.webp'
-import img2 from '../assets/Sorrentino.webp'
-import img3 from '../assets/TravelApp.webp'
+import img1 from '../assets/Blog.png'
+import img2 from '../assets/Sorrentino.png'
+import img3 from '../assets/Travel.png'
 import img4 from '../assets/Wallet.webp'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 

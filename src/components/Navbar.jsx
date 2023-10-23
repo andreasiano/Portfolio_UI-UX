@@ -15,7 +15,7 @@ export default function Navbar() {
     }
   }
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className=" flex py-6 justify-between items-center navbar">
       <h1 className="lg:text-2xl xxs:text-[20px] text-white font-bold tracking-tighter">
         ANDREA PENSIERI
       </h1>

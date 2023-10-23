@@ -14,8 +14,6 @@ export default function ImageCards() {
               className="transition-transform group-hover:scale-110 duration-1000 object-contain"
               src={item.img}
               alt={item.title}
-              width="640px"
-              height="720px"
             />
             <div className="absolute lg:mt-7 sm:mt-5 lg:mx-4 p-4 text-slate-900 inset-0 flex flex-col items-start">
               <h1 className="lg:text-[60px] sm:leading-[60px] xs:text-[50px] sm:text-[70px] xxs:text-3xl xxxs:text-[20px] xxs:mb-4 font-bold">
