@@ -16,7 +16,7 @@ export default function ImageCards() {
               alt={item.title}
             />
             <div className="absolute lg:mt-1 sm:mt-5 lg:mx-4 p-4 text-slate-900 inset-0 flex flex-col items-start">
-              <h1 className="lg:text-[28px] lg:leading-[80px] md:text-[35px] sm:leading-[60px] md:leading-[40px] xs:text-[50px] sm:text-[50px] xxs:text-3xl xxxs:text-[20px] xxs:mb-4 md:mb-0 font-bold">
+              <h1 className="lg:text-[40px] lg:leading-[50px] md:text-[35px] sm:leading-[60px] md:leading-[40px] xs:text-[50px] sm:text-[50px] xxs:text-3xl xxxs:text-[20px] xxs:mb-4 md:mb-0 font-bold">
                 {item.title}
               </h1>
               <p className="max-w-[500px] md:text-[20px] xxxs:text-[10px] font-semibold xs:text-[25px] lg:text-xl sm:text-3xl xxs:text-[16px] sm:mb-5 sm:mt-5 lg:mb-5 xxs:mb-2">
