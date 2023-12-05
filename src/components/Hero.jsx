@@ -7,16 +7,16 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row xxs:gap-0 lg:gap-20 flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row xxs:gap-8 lg:gap-20 flex-col ${styles.paddingY}`}
     >
       <div className={`flex-2 ${styles.flexStart} flex-col`}>
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 mt-5 font-dmdisplay font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[55px]">
+          <h1 className="flex-1 mt-5 font-dmdisplay font-semibold ss:text-[52px] text-[42px] text-white ss:leading-[60.8px] leading-[55px]">
             Building <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Digital Products</span>,{" "}
           </h1>
         </div>
-        <h1 className="font-semibold font-dmdisplay ss:text-[68px] text-[42px] text-white ss:leading-[100.8px] leading-[55px] w-full">
+        <h1 className="font-semibold font-dmdisplay ss:text-[52px] text-[42px] text-white ss:leading-[60.8px] leading-[55px] w-full">
           Coding and More...
         </h1>
         <p
@@ -24,7 +24,7 @@ const Hero = () => {
         >
           I am{" "}
           <span className="text-gradient font-bold">Andrea S. Pensieri</span>, a
-          UI UX Designer with two years of experience as a freelancer.
+          UI UX and Interaction Designer with two years of experience.
         </p>
       </div>
       <div
