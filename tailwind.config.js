@@ -18,12 +18,13 @@ module.exports = {
       xxxs: "200px",
       xxs: "300px",
       xs: "480px",
-      ss: "620px",
       sm: "768px",
-      md: "1060px",
-      lg: "1200px",
-      xl: "1700px",
+      md: "1000px",
+      lg: "1024px",
+      xl: "1280px",
     },
   },
   plugins: [],
 };
+
+
