@@ -15,16 +15,16 @@ export default function Navbar() {
     }
   }
   return (
-    <nav className=" flex py-6 justify-between items-center navbar">
-      <h1 className="lg:text-2xl xxs:text-[20px] text-white font-bold tracking-tighter">
+    <nav className="flex py-6 justify-between items-center navbar">
+      <h1 className="lg:text-xl cursor-pointer xxs:text-[20px] text-white font-bold tracking-tighter">
         ANDREA PENSIERI
       </h1>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
-            className={`text-dimWhite hover:text-blue-200 ${
+            className={`text-dimWhite transition duration-500 hover:text-blue-200 ${
               index === navLinks.length - 1 ? "mr-0" : "mr-5"
-            } text-[20px] cursor-pointer`}
+            } text-[15px] cursor-pointer`}
             key={nav.id}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
